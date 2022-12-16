@@ -1,9 +1,9 @@
 # Termux application
 
-[![Build status](https://github.com/termux/termux-app/workflows/Build/badge.svg)](https://github.com/termux/termux-app/actions)
-[![Testing status](https://github.com/termux/termux-app/workflows/Unit%20tests/badge.svg)](https://github.com/termux/termux-app/actions)
+[![Build status](https://github.com/mrfwc/termux-app/workflows/Build/badge.svg)](https://github.com/mrfwc/termux-app/actions)
+[![Testing status](https://github.com/mrfwc/termux-app/workflows/Unit%20tests/badge.svg)](https://github.com/mrfwc/termux-app/actions)
 [![Join the chat at https://gitter.im/termux/termux](https://badges.gitter.im/termux/termux.svg)](https://gitter.im/termux/termux)
-[![Join the Termux discord server](https://img.shields.io/discord/641256914684084234.svg?label=&logo=discord&logoColor=ffffff&color=5865F2)](https://discord.gg/HXpF69X)
+[![Join the xDJames's discord server](https://img.shields.io/discord/641256914684084234.svg?label=&logo=discord&logoColor=ffffff&color=5865F2)](https://discord.gg/mwEwKmb5dj)
 [![Termux library releases at Jitpack](https://jitpack.io/v/termux/termux-app.svg)](https://jitpack.io/#termux/termux-app)
 
 
@@ -15,13 +15,13 @@ Quick how-to about Termux package management is available at [Package Management
 
 ***
 
-**NOTICE: Termux is broken on Android 12.** Android OS will kill any (phantom) processes greater than 32 (limit is for all apps combined) and also kill any processes using excessive CPU. You may get `[Process completed (signal 9) - press Enter]` message in the terminal without actually exiting the shell process yourself. Check the related issue [#2366](https://github.com/termux/termux-app/issues/2366), [issue tracker](https://issuetracker.google.com/u/1/issues/205156966), [phantom cached and empty processes docs](https://github.com/agnostic-apollo/Android-Docs/blob/master/en/docs/apps/processes/phantom-cached-and-empty-processes.md) and [this TLDR comment](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220) on how to disable trimming of phantom and excessive cpu usage processes. A proper docs page will be added later. An option to disable the killing should be available in Android 12L or 13, so upgrade at your own risk if you are on Android 11, specially if you are not rooted.
+**NOTICE: Termux is broken on Android 12.** Android OS will kill any (phantom) processes greater than 32 (limit is for all apps combined) and also kill any processes using excessive CPU. You may get `[Process completed (signal 9) - press Enter]` message in the terminal without actually exiting the shell process yourself. Check the related issue [#2366](https://github.com/mrfwc/termux-app/issues/2366), [issue tracker](https://issuetracker.google.com/u/1/issues/205156966), [phantom cached and empty processes docs](https://github.com/agnostic-apollo/Android-Docs/blob/master/en/docs/apps/processes/phantom-cached-and-empty-processes.md) and [this TLDR comment](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220) on how to disable trimming of phantom and excessive cpu usage processes. A proper docs page will be added later. An option to disable the killing should be available in Android 12L or 13, so upgrade at your own risk if you are on Android 11, specially if you are not rooted.
 
 ***
 
 **@termux is looking for Termux Application maintainers for implementing new features, fixing bugs and reviewing pull requests since the current one (@fornwall) is inactive.**
 
-Issue https://github.com/termux/termux-app/issues/1072 needs extra attention.
+Issue https://github.com/mrfwc/termux-app/issues/1072 needs extra attention.
 
 ***
 
@@ -39,14 +39,14 @@ Issue https://github.com/termux/termux-app/issues/1072 needs extra attention.
 
 ## Termux App and Plugins
 
-The core [Termux](https://github.com/termux/termux-app) app comes with the following optional plugin apps.
+The core [Termux](https://github.com/mrfwc/termux-app) app comes with the following optional plugin apps.
 
-- [Termux:API](https://github.com/termux/termux-api)
-- [Termux:Boot](https://github.com/termux/termux-boot)
-- [Termux:Float](https://github.com/termux/termux-float)
-- [Termux:Styling](https://github.com/termux/termux-styling)
-- [Termux:Tasker](https://github.com/termux/termux-tasker)
-- [Termux:Widget](https://github.com/termux/termux-widget)
+- [Termux:API](https://github.com/mrfwc/termux-api)
+- [Termux:Boot](https://github.com/mrfwc/termux-boot)
+- [Termux:Float](https://github.com/mrfwc/termux-float)
+- [Termux:Styling](https://github.com/mrfwc/termux-styling)
+- [Termux:Tasker](https://github.com/mrfwc/termux-tasker)
+- [Termux:Widget](https://github.com/mrfwc/termux-widget)
 ##
 
 
